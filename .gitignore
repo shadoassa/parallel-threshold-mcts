@@ -1,0 +1,16 @@
+.venv
+.env
+
+.claude/
+
+src/origin/experiment
+src/prob_randomtree/
+src/exp_randomtree/
+src/origin/tmp.sh
+src/origin/dummy.txt
+src/origin/fig_randomtree.png
+src/origin/boost_local
+nohup.out
+# MPI demo binaries
+src/test/mpi-demo
+src/test/mpi-demo2

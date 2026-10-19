@@ -1,0 +1,19 @@
+[random treeで実験]
+
+# 問題ファイルを生成するためのコマンドを生成
+python3 make_cmd_randomtree.py > tmp.sh
+# 問題ファイルを生成
+sh tmp.sh
+# 実験プログラムを呼び出すコマンドを生成
+python3 make_cmd_randomtree2.py > tmp.sh
+# 実行
+python3 delay_exec.py
+# 結果を集約
+python3 calc_average_randomtree.py
+# SSDへの書き込みの反映待ち?か何かで結構待つかも
+# グラフを表示
+python3 graph_randomtree.py
+> fig_randontree.png
+
+
+# 適宜中間出力を受け取るフォルダを手動で作らなければいけなかった気がします(勝手にmkdirしてたかも...?)ごめん！！！！！
