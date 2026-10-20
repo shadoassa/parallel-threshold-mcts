@@ -1,0 +1,21 @@
+[size]
+7
+[answer]
+0.5
+win
+[nodes]
+0 0 false MAX 0.6 -1 2
+1 2 
+1 1 false MIN 0.6 0 2
+3 4 
+2 1 false MIN 0.5 0 2
+5 6 
+3 2 true MAX 0.6 1 0
+
+4 2 true MAX 0.6168946480201877 1 0
+
+5 2 true MAX 0.5 2 0
+
+6 2 true MAX 0.6249022713245578 2 0
+
+end

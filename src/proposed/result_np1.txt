@@ -1,0 +1,12 @@
+start: Tue Oct 20 12:19:15 2026
+finish: Tue Oct 20 12:19:15 2026 (00:00:00)
+probfile: prob.txt
+theta: 0.5
+delta: 1e-1
+algorithm: Ratio-based D-Tracking (MPI)
+mpi_size: 1
+itr: 100
+correct_count: 100
+tau_avg: 573.98
+tau_var: 1.25174e+06
+tau_stddev: 1118.81

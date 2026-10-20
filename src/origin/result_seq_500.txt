@@ -1,0 +1,11 @@
+start: Tue Oct 20 12:29:39 2026
+finish: Tue Oct 20 12:29:39 2026 (00:00:00)
+probfile: prob.txt
+theta: 0.5
+delta: 1e-1
+algorithm: D-Tracking
+itr: 500
+correct_count: 500
+tau_avg: 901.904
+tau_var: 4.23062e+06
+tau_stddev: 2056.85
